@@ -1,0 +1,179 @@
+if game.PlaceId == 301549746 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Python Hub | Counter Blox", HidePremium = false, IntroText = "Python Hub", SaveConfig = false, ConfigFolder = "OrionTest"})
+
+-- Tabs
+
+local MainTab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+ -- Buttons
+MainTab:AddButton({
+	Name = "Stormy",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ik3ac/stormy-fixed-counter-blox-2023/main/.gitignore"))() 
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "NooVster Gui",
+	Callback = function()
+      		 loadstring(game:HttpGet('https://raw.githubusercontent.com/NooVster/404/main/Source'))()
+
+  	end    
+})
+
+
+
+MainTab:AddButton({
+Name = "Client Sided Skin Changer (DONT USE BANANA KNIFE)",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/Qu9inv8N'),true))()
+  	end    
+})
+
+
+
+
+
+elseif game.PlaceId == 12355337193 then 
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Python Hub | Murderers VS Sherrifs Duels", HidePremium = false, IntroText = "Python Hub", SaveConfig = false, ConfigFolder = "OrionTest"})
+
+
+
+local MainTab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+
+MainTab:AddButton({
+	Name = "Kenniel Hub (Autofarm) (Autokill) + MORE!",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kenniel123/Murderers-VS-Sheriffs-Duels-script/main/Murderers%20VS%20Sheriffs%20Duels%20script",true))();
+
+  	end    
+})
+
+
+
+
+
+
+MainTab:AddButton({
+	Name = "Kill All",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/rblxscriptsnet/scripts/main/murdvssherduels1"))()
+  	end    
+})
+
+
+
+MainTab:AddButton({
+	Name = "Emptyness Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheEmptynessProject/EmptynessProject/main/index.lua"))()
+  	end    
+})
+
+
+
+
+elseif game.PlaceId == 13416514259 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Python Hub | Shadow Boxing Battles", HidePremium = false, IntroText = "Python Hub", SaveConfig = false, ConfigFolder = "OrionTest"})
+
+
+
+
+local MainTab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+
+MainTab:AddButton({
+	Name = "Auto Play (OP)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/ShadowBoxing"))()
+  	end    
+})
+
+
+
+
+
+
+elseif game.PlaceId == 2788229376 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Python Hub | Da Hood", HidePremium = false, IntroText = "Python Hub", SaveConfig = false, ConfigFolder = "OrionTest"})
+
+
+local MainTab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+MainTab:AddButton({
+	Name = "Aimlock (Q)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/ctTeqmEC", true))()
+  	end    
+})
+
+
+MainTab:AddButton({
+	Name = "Fake Macro",
+	Callback = function()
+      		loadstring(game:HttpGetAsync("https://pastebin.com/raw/XiqsUXHj", true))()
+  	end    
+})
+
+
+
+elseif game.PlaceId == 13444486526 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Python Hub | Stomp Effects Testing", HidePremium = false, IntroText = "Python Hub", SaveConfig = false, ConfigFolder = "OrionTest"})
+
+
+
+
+local MainTab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+MainTab:AddButton({
+	Name = "Aimlock/Silentaim Gui (OP)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/RYZZCHIPSX/ryzzchips/main/beamed%20ware%20script"))();                    
+  	end    
+})
+
+
+
+MainTab:AddButton({
+	Name = "Fake Macro (OP)",
+	Callback = function()
+      		loadstring(game:HttpGetAsync("https://pastebin.com/raw/XiqsUXHj", true))()
+  	end    
+})
+
+
+
+
+
+end
+OrionLib:Init()
